@@ -2,7 +2,7 @@
   src: url(Agency_FB.ttf);
 }
 @font-face { font-family: AgencyFB-bold;
-  src: url(Agency_FB_bold.ttf);}
+  src: url(Agency_FB_Bold.ttf);}
 body{
   font-size: 62.5%;
   max-width: 600px;
