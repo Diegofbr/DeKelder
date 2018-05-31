@@ -34,3 +34,9 @@ contactknop.onclick = function() {
   console.log("klik");
   window.scrollTo(0,-800)
 }
+var navcontact = document.getElementById("navcontact");
+
+navcontact.onclick = function () {
+  console.log(linkkk)
+  alert("tel: +32 499 29 15 48 of Dekelder@info.be")
+}

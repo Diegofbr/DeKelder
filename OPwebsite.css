@@ -19,7 +19,7 @@ body{
 }
 header{
   background-color: black;
-  height: 130px;
+  height: 14.7vh;
 }
 header img{
   position: absolute;
@@ -126,6 +126,7 @@ h2{
   text-align: center;
   font-size: 2rem;
   margin-top: 5px;
+  margin-top: 9px;
 }
 .webshop img{
   position: relative;
@@ -255,15 +256,15 @@ footer{
     width: 250px;
   }
   .onzeartistenall{
-    margin-left: 35px;
+    margin-left: 8vw;
   }
   main h2{
     width: 97vw;
   }
   .platen{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 30px;
+    grid-template-columns:  22vw 22vw 22vw 22vw;
+    grid-gap: 3vw;
   }
   #slidefoto{
     margin-left: auto;
@@ -286,7 +287,8 @@ footer{
   .platen img{
     padding: 0px;
     padding-bottom: 70px;
-    width: 300px;
+    width: 22vw;
+    margin-right: 2px;
   }
   .platen .wrong{
     padding-bottom: 95px;
@@ -311,7 +313,7 @@ footer{
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 5;
-    margin-left: 40px;
+    margin-left: -1px;
   }
   .ticketsdownloads{
     grid-row: 2;
