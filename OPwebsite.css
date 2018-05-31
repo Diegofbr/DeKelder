@@ -10,6 +10,7 @@
 body{
   font-size: 62.5%;
   max-width: 600px;
+  min-width: 400px;
   font-family: Agency_FB;
   display: grid;
   font-family: AgencyFB;
@@ -56,7 +57,7 @@ header h1{
   font-size: 3rem;
   font-family: AgencyFB-bold;
   position: absolute;
-  left: 135px;
+  left: 27vw;
   top: 78px;
 }
 main{
@@ -127,7 +128,8 @@ h2{
   margin-top: 5px;
 }
 .webshop img{
-  width: 400px;
+  position: relative;
+  width: 80vw;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -135,6 +137,12 @@ h2{
   margin-left: 20px;
   margin-top: 10px;
   border: solid black 2px;
+}
+.onzeartistenall{
+  text-align: center;
+}
+.onzeartistenall li{
+  margin-top: 7px;
 }
 .imsealbum{
   position: relative;
@@ -150,9 +158,8 @@ h2{
   height: 30px;
   border: solid 1px black;
   background-color: black;
-
-  bottom: 12px;
   right: 10px;
+  bottom: 12px;
 }
 .albumbestellen:hover{
   background-color: gold;
@@ -209,7 +216,7 @@ footer{
   height: 400px;
   background-color: grey;
 }
-@media (min-width: 850px) {
+@media (min-width: 800px) {
   html{
     width: 97%;
     font-size: 100%;
@@ -231,6 +238,11 @@ footer{
   p{
     font-size: 1.8rem;
   }
+  header h1{
+    font-size: 8rem;
+    left: 185px;
+    top: 4px;
+  }
   ul{
     font-size: 1.8rem;
   }
@@ -241,6 +253,9 @@ footer{
   }
   .webshop img{
     width: 250px;
+  }
+  .onzeartistenall{
+    margin-left: 35px;
   }
   main h2{
     width: 97vw;
@@ -272,6 +287,9 @@ footer{
     padding: 0px;
     padding-bottom: 70px;
     width: 300px;
+  }
+  .platen .wrong{
+    padding-bottom: 95px;
   }
   .evenement{
     display: grid;
