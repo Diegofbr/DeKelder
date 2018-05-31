@@ -13,7 +13,7 @@ var slider = document.getElementById("slidefoto");
 var slidertekst = document.getElementById("slidertekst");
 console.log(slider.length)
 var teller = 0;
-var slide = ["Mock-Ups-alternatief.png", "Mock-Ups-fotografisch.png", "Mock-Ups-illustratief.png", "Mock-Ups-typografisch.png"];
+var slide = ["Mock-Ups-alternatief.png", "Mock-Ups-fotografisch.png", "hoes_typografisch_finished!.jpg", "1718_OP2_Mockup_Voorkant_02.jpg"];
 var slidetekst = ["Imse G","King Z","Vexed","Relics" ]
 console.log(slide.length)
 
