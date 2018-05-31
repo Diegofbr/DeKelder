@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta  "UTF-8">
+    <title>De Kelder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="OPwebsite.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+      <header>
+        <nav>
+              <a href="OPhome.html">Home De kelder</a>
+              <a href="OPartiest.html">Onze artiesten</a>
+              <a href="OPevenement.html">Evenement</a>
+              <a href="#">Contact</a>
+        </nav>
+          <img src="Logo_De-Kelder 2.png" alt="Logo de kelder">
+          <h1>De kelder</h1>
+      </header>
+      <main class="evenement">
+          <div class="evenementdeel"class="evenementuitleg">
+              <h2>Het Evenement</h2>
+          </div>
+          <div class="evenementdeel"class="tickets">
+              <h2><a href="#">Tickets kopen</a></h2>
+          </div>
+          <div class="evenementdeel"id="map">
+              <script>
+                      function initMap() {
+                        var myLatLng = {lat: 51.211662, lng: 4.421772};
+
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                          zoom: 17,
+                          center: myLatLng
+                        });
+
+                        var marker = new google.maps.Marker({
+                          position: myLatLng,
+                          map: map,
+                          title: 'Hello World!'
+                        });
+                      }
+                    </script>
+                    <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBwcii61bM17KQUKW57XUI2_bkuGMuqPk&callback=initMap">
+              </script>
+          </div>
+      </main>
+      <footer>
+            <h2>Contact</h2>
+            <ul>
+              <li>Telefoonnummer</li>
+              <li>Dekelder@info.be</li>
+            </ul>
+            <p>Socials</p>
+            <ul>
+                <li><a href="#">FACEBOOK</a></li>
+                <li><a href="#">SOUNDCLOUD</a></li>
+                <li><a href="#">ITUNES</a></li>
+            </ul>
+            <p> &copy;De kelder 2018</p>
+      </footer>
+  </body>
+</html>
