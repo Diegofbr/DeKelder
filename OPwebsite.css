@@ -30,15 +30,14 @@ header img{
 nav{
   display: inline-block;
   text-align: right;
-  margin-left: 68%;
+  margin-left: 66%;
+  margin-right: 20px;
   margin-top: 5px;
   font-size: 1.6rem;
+  line-height: 30px;
 }
 nav a{
 display: block;
-}
-nav:hover{
-  background-image: url(stroke.png);
 }
 header a:hover{
   color: gold;
@@ -222,16 +221,6 @@ footer{
     width: 97%;
     font-size: 100%;
   }
-  nav{
-    margin-right: 50px;
-    display: flex;
-    width: 500px;
-    margin-left: 35%;
-    font-size: 1.9rem;
-    width: 800px;
-    margin-top: 80px;
-    float: right;
-  }
   header a:hover{
     color: gold;
     border-bottom: 4px black solid;
@@ -319,5 +308,17 @@ footer{
     grid-column: 2;
     height: 50px;
     margin-top: -200px;
+  }
+}
+@media (min-width: 1350px) {
+  nav{
+    margin-right: 50px;
+    display: flex;
+    width: 500px;
+    margin-left: 35%;
+    font-size: 1.9rem;
+    width: 800px;
+    margin-top: 80px;
+    float: right;
   }
 }
