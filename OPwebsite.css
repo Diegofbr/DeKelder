@@ -19,7 +19,7 @@ body{
 }
 header{
   background-color: black;
-  height: 14.7vh;
+  height: 135px;
 }
 header img{
   position: absolute;
@@ -250,7 +250,6 @@ footer{
   nav a{
     margin-left: 25px;
     margin-right: 25px;
-    margin-left:
   }
   .webshop img{
     width: 250px;
