@@ -27,13 +27,6 @@ var FunctieTijd = function () {
 }
 setInterval(FunctieTijd, 2500);
 
-var contactknop = document.getElementById("contact");
-console.log(contact.innerHTML);
-
-contactknop.onclick = function() {
-  console.log("klik");
-  window.scrollTo(0,-800)
-}
 var navcontact = document.getElementById("navcontact");
 
 navcontact.onclick = function () {
