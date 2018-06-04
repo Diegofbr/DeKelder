@@ -89,7 +89,8 @@ main p{
 #slidertekst{
   font-family: AgencyFB-bold;
   margin-top: 15px;
-  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
   width: 300px;
   font-size: 2rem;
   text-align: center;
